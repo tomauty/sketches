@@ -2,14 +2,15 @@
  * Created by Tom on 4/23/17.
  */
 const path = require('path');
-console.log(path.resolve(__dirname, 'images'));
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: './index.ts',
     output: {
         filename: 'bundle.js',
-        path: path.resolve(__dirname, 'build')
+        path: path.resolve(__dirname, 'build'),
     },
+    plugins: [new HtmlWebpackPlugin()],
     resolve: {
         // Add `.ts` and `.tsx` as a resolvable extension.
         extensions: ['.ts', '.tsx', '.js', '.jpg'] // note if using webpack 1 you'd also need a '' in the array as well
@@ -20,7 +21,7 @@ module.exports = {
             { test: /\.tsx?$/, loader: 'ts-loader' },
 
             // Images
-            { test: /\.(jpg|png|svg)$/, loader: 'file-loader' },
+            { test: /\.(jpg|png|svg|)$/, loader: 'file-loader' },
         ]
     }
 }

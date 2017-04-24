@@ -7,6 +7,7 @@ var THREE = require("three");
 require('./firstPersonControls');
 require('./waterShader');
 require('./orbitControls');
+THREE.ImageUtils.crossOrigin = "";
 /**
  * Water
  */
