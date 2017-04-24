@@ -19,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/index.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -250,6 +250,8 @@
         <option value="$PROJECT_DIR$/waterShader.js" />
         <option value="$PROJECT_DIR$/orbitControls.js" />
         <option value="$PROJECT_DIR$/orbitControls.js.map" />
+        <option value="$PROJECT_DIR$/../../moneylion-react-native/app/styles/listStyles.js" />
+        <option value="$PROJECT_DIR$/../../moneylion-react-native/app/styles/colors.js" />
       </list>
     </option>
   </component>
@@ -694,7 +696,7 @@
     <entry file="file://$PROJECT_DIR$/index.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
